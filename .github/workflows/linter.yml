@@ -5,7 +5,7 @@ run-name: Lint code base
 on:
   workflow_dispatch:
   push:
-    branches-ignore: [main]
+    # branches-ignore: [main]
   pull_request:
     branches: [main]
 
